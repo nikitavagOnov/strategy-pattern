@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strategy-pattern(vaganov)", "strategy-pattern(vaganov)\strategy-pattern(vaganov).csproj", "{ED3D2EB0-C51B-4124-A1A2-0DC227809A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{6AD1BC77-0021-48EF-9EBA-DA640D637FEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED3D2EB0-C51B-4124-A1A2-0DC227809A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3D2EB0-C51B-4124-A1A2-0DC227809A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3D2EB0-C51B-4124-A1A2-0DC227809A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3D2EB0-C51B-4124-A1A2-0DC227809A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD1BC77-0021-48EF-9EBA-DA640D637FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD1BC77-0021-48EF-9EBA-DA640D637FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD1BC77-0021-48EF-9EBA-DA640D637FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD1BC77-0021-48EF-9EBA-DA640D637FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {827D2412-A0D7-430C-9C67-3F95E0458E68}
+	EndGlobalSection
+EndGlobal
