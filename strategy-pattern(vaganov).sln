@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31321.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strategy-pattern(vaganov)", "strategy-pattern(vaganov)\strategy-pattern(vaganov).csproj", "{ED3D2EB0-C51B-4124-A1A2-0DC227809A4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strategy-pattern", "strategy-pattern(vaganov)\strategy-pattern.csproj", "{ED3D2EB0-C51B-4124-A1A2-0DC227809A4D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{6AD1BC77-0021-48EF-9EBA-DA640D637FEF}"
 EndProject
