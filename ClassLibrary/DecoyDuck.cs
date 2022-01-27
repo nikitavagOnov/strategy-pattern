@@ -10,7 +10,7 @@ namespace ClassLibrary
     {
         public override string Display()
         {
-            return "DecoyDuck " + this.GetType();
+            return $"{this.GetType()} {flyBehavior.GetType()} {quackBehavior.GetType()}";
         }
     }
 }

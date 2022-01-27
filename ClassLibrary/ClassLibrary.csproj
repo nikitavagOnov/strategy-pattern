@@ -44,12 +44,17 @@
   <ItemGroup>
     <Compile Include="DecoyDuck.cs" />
     <Compile Include="Duck.cs" />
-    <Compile Include="Interfaces\IFlyable.cs" />
-    <Compile Include="Interfaces\IQuackable.cs" />
+    <Compile Include="FlyNoWay.cs" />
+    <Compile Include="FlyWithWings.cs" />
+    <Compile Include="Interfaces\IFlyBehavior.cs" />
+    <Compile Include="Interfaces\IQuackBehavior.cs" />
     <Compile Include="MallardDuck.cs" />
+    <Compile Include="MuteQuack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DQuack.cs" />
     <Compile Include="RedheadDuck.cs" />
     <Compile Include="RubberDuck.cs" />
+    <Compile Include="Squeak.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

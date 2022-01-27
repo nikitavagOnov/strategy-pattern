@@ -7,19 +7,11 @@ using ClassLibrary.Interfaces;
 
 namespace ClassLibrary
 {
-    public class MallardDuck: Duck, IQuackable, IFlyable
+    public class MallardDuck: Duck
     {
-        public string Quack()
-        {
-            return "Quack " + this.GetType();
-        }
-        public string Fly()
-        {
-            return "Fly " + this.GetType();
-        }
         public override string Display()
         {
-            return "Display " + this.GetType();
+            return $"{this.GetType()} {flyBehavior.GetType()} {quackBehavior.GetType()}";
         }
     }
 }

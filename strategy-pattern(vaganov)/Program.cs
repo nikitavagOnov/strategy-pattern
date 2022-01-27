@@ -17,20 +17,31 @@ namespace strategy_pattern
             DecoyDuck decoyDuck = new DecoyDuck();
             RubberDuck rubberDuck = new RubberDuck();
 
-            Duck[] ducks = { mallardDuck, redheadDuck, rubberDuck, decoyDuck };
+            IFlyBehavior flywithwings = new FlyWithWings();
+            IFlyBehavior flynoway = new FlyNoWay();
+            IQuackBehavior dquack = new DQuack();
+            IQuackBehavior squeak = new Squeak();
+            IQuackBehavior mutequack = new MuteQuack();
+
+            mallardDuck.setFlyBehavior(flywithwings);
+            mallardDuck.setQuackBehavior(dquack);
+
+            redheadDuck.setFlyBehavior(flywithwings);
+            redheadDuck.setQuackBehavior(dquack);
+
+            decoyDuck.setFlyBehavior(flynoway);
+            decoyDuck.setQuackBehavior(mutequack);
+
+            rubberDuck.setFlyBehavior(flynoway);
+            rubberDuck.setQuackBehavior(squeak);
+
+            Duck[] ducks = { mallardDuck, redheadDuck, decoyDuck, redheadDuck };
             foreach (Duck d in ducks)
             {
-                if (d is IQuackable)
-                {
-                    Console.WriteLine((d as IQuackable).Quack());
-                }
-                if (d is IFlyable)
-                {
-                    Console.WriteLine((d as IFlyable).Fly());
-                }
                 Console.WriteLine(d.Display());
                 Console.WriteLine(d.Swim());
-
+                Console.WriteLine(d.PerformFly());
+                Console.WriteLine(d.PerformQuack());
             }
             Console.ReadKey();
         }

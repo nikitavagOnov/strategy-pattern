@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary.Interfaces
 {
-    public interface IFlyable
+    public interface IFlyBehavior
     {
         string Fly();
     }
